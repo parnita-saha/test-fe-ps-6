@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-fe-ps-6"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  providesApis:
+    - policy-inq-bff-datalist
+    - policy-inq-bff-overview
